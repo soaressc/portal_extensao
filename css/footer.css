@@ -1,0 +1,230 @@
+/*fonte do como chegar*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
+
+/* Espaçamento abaixo do footer */
+footer {
+  margin-bottom: 5%;
+}
+
+/* Container do "como chegar" */
+.container-mapa {
+  display: flex;
+  justify-content: center; /* Alterado para centralizar */
+}
+
+/* Mapa rodapé */
+.mapa-rodape {
+  margin: 5% 10%;
+  display: flex;
+  justify-content: center;
+}
+
+/* textos rodapé */
+.texto-1-rodape {
+  margin: 4% 5% 3%;
+  text-align: center;
+  color: #616161;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 30px;
+}
+
+.texto-2-rodape {
+  margin: 150px auto 3%;
+  text-align: center;
+  padding: 0 25%; /* Ajustado o padding */
+  color: #616161;
+}
+
+.texto-box-2 {
+  text-align: center;
+  color: #808080;
+}
+
+/* Flex para deixar os textos do rodapé em coluna */
+.flex-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; /* Para alinhar ao centro */
+}
+
+
+/* Icones footer */
+.insta-icon {
+  padding-top: 10px;
+  width: 35px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.insta-icon:hover{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.youtube-icon {
+  padding-top: 10px;
+  width: 40px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.youtube-icon:hover{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.wpp-icon {
+  padding-top: 10px;
+  width: 35px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.wpp-icon:hover{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.gmail-icon {
+  padding-top: 10px;
+  width: 35px;
+  -webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+
+.gmail-icon:hover{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Texto: como chegar */
+.texto-1-rodape {
+  margin: 2% 5%;
+  text-align: center;
+  color: #616161;
+}
+
+/* Botão contato */
+.botao-contato {
+  border: none; /* Forma simplificada de remover o estilo do botão */
+  width: 110px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #336a25; /* outra opção de cor: #228B22*/
+  transition: all 0.7s ease;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+}
+
+.contato{
+  color: #fff;
+  font-size: medium;
+  transition: all 0.7s ease;
+}
+
+.botao-contato:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 2px 2px #616161;
+  cursor: pointer;
+}
+
+.center-botao {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+/* Texto redes sociais */
+.caixa-texto-redes-sociais {
+  margin-bottom: 2%;
+}
+
+/* Seções abaixo do botão contatos */
+.caixa-texto-contatos-devs {
+  text-align: center;
+  color: #808080;
+  font-size: 14px;
+  font-weight: 500;
+  width: 50%;
+  margin-bottom: 2%;
+}
+.caixa-texto-contatos-devs-2{
+  text-align: center;
+  color: #808080;
+  font-size: 14px;
+  font-weight: 500;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.contatos-devs {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-devs {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .container-mapa {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto-2-rodape {
+    margin: 0 auto 3%;
+    text-align: center;
+    padding: 0 7%;
+  }
+
+  .caixa-texto-contatos-devs {
+    margin: 8% 2% 0;
+    padding-left: 10%;
+  }
+
+  .gmail-icon{
+    width: 20px;
+  }
+
+  .insta-icon{
+    width: 20px;
+  }
+  
+  .wpp-icon{
+    width: 20px;
+  }
+
+  .youtube-icon{
+    width: 22px;
+  }
+  
+  .caixa-texto-contatos-devs-2{
+    margin: 8% 2% 0;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 12px;
+  }
+
+  .texto-devs{
+    text-align: center;
+  }
+
+  .endereco-caixa {
+    margin-top: 8%;
+    margin-bottom: 4%;
+  }
+
+  .contatos-devs{
+    padding-bottom: 8%;
+  }
+
+  .texto-1-rodape{
+    margin-top: 10%;
+  }
+}
